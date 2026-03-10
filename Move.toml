@@ -1,0 +1,10 @@
+[package]
+name = "selora"
+version = "1.0.0"
+edition = "2024.beta"
+
+[dependencies]
+Iota = { git = "https://github.com/iotaledger/iota.git", subdir = "crates/iota-framework/packages/iota-framework", rev = "mainnet" }
+
+[addresses]
+selora = "0x0"
